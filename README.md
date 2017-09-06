@@ -1,2 +1,2 @@
 # vue-js-2-practice
-Vue Js practice files 
+Finally i learning Vue Js 2 seriously :) this repository just for my practice purpose ;) 
