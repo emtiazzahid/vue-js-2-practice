@@ -8,12 +8,14 @@
     <title>Bootstrap 101 Template</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 	
   </head>
   <body>
-    <h1>Hello, world!</h1>
-	
+    
+	<div id='app'>
+		<h1>{{ message }}</h1>
+	</div>
 	
 	
 	
@@ -24,6 +26,14 @@
 	
 	
 	<script src="https://unpkg.com/vue@2.4.2/dist/vue.js"></script>
-
+	<script>
+		var app = new Vue({
+			el: '#app',
+			data: {
+				message: 'hello vue world'
+			}
+		});
+	</script>
+	
   </body>
 </html>
